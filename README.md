@@ -76,7 +76,7 @@ All tracking data is stored locally in your browser. No data is sent to external
 
 ## 👨‍💻 Author
 
-Developed by **Ramapurshotham Reddy**  
+Developed by **Rama purushotham Reddy**  
 BTech 3rd Year Student  
 Computer Science & Engineering
 
@@ -92,7 +92,7 @@ Feel free to check the issues page.
 ## 📞 Contact
 
 - GitHub: [@ram6521](https://github.com/ram6521)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- LinkedIn: [Your LinkedIn Profile]((https://www.linkedin.com/in/rama-purushotham-reddy-g-76557a342/))
 
 ---
 
