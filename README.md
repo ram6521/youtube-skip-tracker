@@ -76,7 +76,7 @@ All tracking data is stored locally in your browser. No data is sent to external
 
 ## 👨‍💻 Author
 
-Developed by **Rama purushotham Reddy**  
+Developed by **G. Rama purushotham Reddy**  
 BTech 3rd Year Student  
 Computer Science & Engineering
 
