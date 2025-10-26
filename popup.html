@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 400px;
+            padding: 0;
+            margin: 0;
+            font-family: 'Segoe UI', 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .header {
+            background: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header h2 {
+            margin: 0;
+            color: #667eea;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        
+        .header p {
+            margin: 5px 0 0 0;
+            color: #999;
+            font-size: 12px;
+        }
+        
+        .controls {
+            padding: 15px;
+        }
+        
+        button {
+            background: white;
+            color: #667eea;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            width: 100%;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: all 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        #report {
+            background: white;
+            margin: 0 15px 15px 15px;
+            padding: 15px;
+            border-radius: 12px;
+            max-height: 400px;
+            overflow-y: auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .stats-summary {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            color: white;
+        }
+        
+        .stat-number {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 11px;
+            opacity: 0.9;
+            text-transform: uppercase;
+        }
+        
+        .skip-types {
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 13px;
+            text-align: center;
+        }
+        
+        .skip-types strong {
+            color: #333;
+        }
+        
+        .forward-count {
+            color: #10b981;
+            font-weight: 600;
+        }
+        
+        .backward-count {
+            color: #ef4444;
+            font-weight: 600;
+        }
+        
+        .skip-item {
+            background: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        
+        .skip-forward {
+            border-left-color: #10b981;
+        }
+        
+        .skip-backward {
+            border-left-color: #ef4444;
+        }
+        
+        .skip-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .skip-number {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .skip-badge {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            color: white;
+        }
+        
+        .badge-forward {
+            background: #10b981;
+        }
+        
+        .badge-backward {
+            background: #ef4444;
+        }
+        
+        .skip-time {
+            font-size: 15px;
+            color: #555;
+            margin-bottom: 5px;
+        }
+        
+        .skip-duration {
+            font-size: 12px;
+            color: #999;
+        }
+        
+        .total-summary {
+            background: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+        }
+        
+        .total-label {
+            font-size: 12px;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+        
+        .total-time {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        
+        .no-data {
+            text-align: center;
+            padding: 40px 20px;
+            color: #999;
+        }
+        
+        .no-data-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>YouTube Skip Tracker</h2>
+        <p>Analyze Your Viewing Patterns</p>
+    </div>
+    
+    <div class="controls">
+        <button id="showReport">Show Skip Report</button>
+    </div>
+    
+    <div id="report"></div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
