@@ -42,4 +42,59 @@ A Chrome extension that tracks which parts of YouTube videos you skip and provid
 - HTML5 & CSS3
 
 ## 📁 Project Structure
+youtube-skip-tracker/
+├── manifest.json # Extension configuration
+├── content.js # YouTube page script (tracking logic)
+├── popup.html # Extension popup UI
+├── popup.js # Popup functionality
+├── icon.png # Extension icon
+└── README.md # Documentation
+
+## 🎨 Features Explained
+
+### Skip Detection
+- Tracks video seeks (jumps in timeline)
+- Minimum threshold: 2 seconds
+- Records both forward and backward skips
+
+### Data Display
+- **Total Skips**: Number of times you skipped
+- **Time Skipped**: Total duration skipped
+- **Skip Types**: Breakdown of forward vs backward
+- **Individual Skips**: Detailed list with timestamps
+
+## 🔮 Future Enhancements
+
+- Export data to CSV
+- Skip heatmap visualization
+- Multi-video session tracking
+- Settings panel for customization
+
+## 🔒 Privacy
+
+All tracking data is stored locally in your browser. No data is sent to external servers.
+
+## 👨‍💻 Author
+
+Developed by **Ramapurshotham Reddy**  
+BTech 3rd Year Student  
+Computer Science & Engineering
+
+## 📄 License
+
+MIT License - Free to use and modify
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the issues page.
+
+## 📞 Contact
+
+- GitHub: [@ram6521](https://github.com/ram6521)
+- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+
+---
+
+⭐ If you find this project useful, please give it a star on GitHub!
 
