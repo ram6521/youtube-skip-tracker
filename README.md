@@ -92,7 +92,7 @@ Feel free to check the issues page.
 ## 📞 Contact
 
 - GitHub: [@ram6521](https://github.com/ram6521)
-- LinkedIn: [Your LinkedIn Profile]((https://www.linkedin.com/in/rama-purushotham-reddy-g-76557a342/))
+- LinkedIn: ((https://www.linkedin.com/in/rama-purushotham-reddy-g-76557a342/))
 
 ---
 
